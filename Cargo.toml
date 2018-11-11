@@ -1,7 +1,14 @@
 [package]
-name = "DailyProgrammingChallenges"
+name = "daily_programming_challenges"
 version = "0.1.0"
 authors = ["Luke-Draper <lukepdraper@gmail.com>"]
 edition = "2018"
 
 [dependencies]
+rand = "*"
+
+# Add another section just like this each day
+# Run to test output : cargo run --bin 'name'
+[[bin]]
+name = "11_11_18"
+path = "src/bin/11_11_18.rs"
